@@ -22,3 +22,9 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 1. Clone the repository
 2. Open index.html in your web browser
+
+
+'''
+This project is a project for the TripleTen Software Engineering course.
+'''
+
