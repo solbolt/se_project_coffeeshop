@@ -2,29 +2,27 @@
 
 This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
 
-## Project features
+## Project Description
 
-- Semantic HTML5
-- Flexbox
-- Positioning
-- Flat BEM file structure
-- A custom form
-- CSS animation and transform
+The Triple Peaks Coffee Shop website is a responsive, single-page site that showcases the coffee shop's offerings, allows users to view recipes, and book a table. The project demonstrates the use of the following technologies and techniques:
 
-## Recent Updates
+- Semantic HTML5 for structure
+- CSS3 for styling, including Flexbox for layout
+- Positioning for precise element placement
+- Flat BEM (Block, Element, Modifier) methodology for CSS organization
+- Custom form implementation for table reservations
+- CSS animations and transforms for interactive elements
 
-- Added a responsive reservation form
-- Implemented custom styling for form elements
-- Ensured proper spacing and alignment of form components
-- Added hover effects for interactive elements
+## Project Features
 
-## How to view the project
+- Responsive design that adapts to different screen sizes
+- Navigation menu with smooth scrolling to different sections
+- Embedded video content for coffee recipes
+- Interactive reservation form with custom styling
+- Menu section displaying various coffee and food items
+- About section with information about the coffee shop
+- Footer with social media links
 
-1. Clone the repository
-2. Open index.html in your web browser
 
 
-```
-This project is a project for the TripleTen Software Engineering course.
-```
-
+This project was completed as part of the TripleTen Software Engineering bootcamp, demonstrating proficiency in HTML and CSS while adhering to design specifications.

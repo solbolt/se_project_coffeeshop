@@ -1,0 +1,8 @@
+.form__button {
+  background-color: #2f80ed;
+  transition: background-color 0.3s ease;
+}
+
+.form__button:hover {
+  background-color: #1b60c3;
+}
