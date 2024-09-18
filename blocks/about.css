@@ -6,7 +6,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  padding: 100px 80px;
+  padding: 100px 80px 173px;
 }
 
 .about__title {
@@ -37,6 +37,10 @@
   margin: 0 0 20px;
 }
 
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2F80ED;
   width: 426px;
@@ -49,14 +53,6 @@
 }
 
 .about__circle_animation_blurred {
-  background-color: #2F80ED;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  z-index: 0;
   animation: pulsate 1.3s ease-in-out infinite;
 }
 
