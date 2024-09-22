@@ -27,37 +27,29 @@
 }
 
 .recipes__videos {
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
   display: flex;
-  gap: 40px;
   justify-content: center;
+  gap: 40px;
 }
 
-.recipes__video-item {
+.recipes__video {
   width: 480px;
   height: 273px;
 }
 
 .recipes__iframe {
   width: 100%;
-  height: 100%;
+  height: 273px;
   border: 0;
 }
 
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
   font-family: 'Inter', Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-}
-
-.recipes__video-caption span:last-child {
-  color: #838383;
+  color: #ffffff;
+  margin-top: 24px;
 }

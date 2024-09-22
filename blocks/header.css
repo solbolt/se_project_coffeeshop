@@ -8,10 +8,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  z-index: 1; /* Add this line to create a stacking context */
 }
-
-
 
 .header__title {
   max-width: 729px;
@@ -39,14 +36,15 @@
   right: 5px;
   width: 646px;
   height: 568px;
-  z-index: -1; /* Add this line to position it behind other elements */
 }
 
 .header__footer {
-  width: 100%;
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
+  width: calc(100% - 160px);
   display: flex;
-  align-items: end;
-  padding: 0 80px;
+  align-items: flex-end;
   justify-content: space-between;
   box-sizing: border-box;
 }
