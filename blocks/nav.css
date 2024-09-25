@@ -7,7 +7,7 @@
   width: 105px;
   height: 39px;
   position: relative;
-  top: -30px;
+  top: 0;  // Changed from -30px to 0
   left: -50px;
 }
 
