@@ -4,11 +4,11 @@
 }
 
 .nav__logo {
+  position: relative;
+  top: 0; /* Corrected */
+  left: -50px; /* Corrected */
   width: 105px;
   height: 39px;
-  position: relative;
-  top: 0;  // Changed from -30px to 0
-  left: -50px;
 }
 
 .nav__links {

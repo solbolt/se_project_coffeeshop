@@ -12,14 +12,14 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #000;
+  color: #000000;
 }
 
 .form__input {
   display: block;
   width: 100%;
   max-width: 385px;
-  padding: 15px 20px;  /* Changed from padding: 20px; */
+  padding: 15px 20px; /* Changed top and bottom padding to 15px */
   margin-bottom: 32px;
   box-sizing: border-box;
   border: 1px solid #838383;
@@ -29,7 +29,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #000;
+  color: #000000;
 }
 
 .form__input::placeholder {
@@ -40,8 +40,8 @@
   width: 100%;
   padding: 20px 0;
   margin-bottom: 32px;
-  background-color: #2f80ed;
-  color: #fff;
+  background-color: #2F80ED;
+  color: #FFFFFF;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -50,16 +50,16 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .form__button:hover {
-  background-color: #3f96f3;
+  opacity: 0.7;
 }
 
 .form__label_type_checkbox {
   display: flex;
-  justify-content: center;  // Added this line
+  justify-content: center;
   align-items: center;
   gap: 12px;
   margin-bottom: 0;
@@ -70,4 +70,30 @@
   height: 20px;
   margin: 0;
   border-radius: 2px;
+  border: 2px solid #000000;
+  position: relative;
+  cursor: pointer;
+}
+
+.form__checkbox:checked {
+  background-color: #2F80ED;
+  border-color: #2F80ED;
+}
+
+.form__checkbox:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-image: url('../images/check.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
 }

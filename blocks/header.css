@@ -1,39 +1,39 @@
 .header {
-  height: 800px;
-  padding: 30px 80px 40px;
-  position: relative;
-  box-sizing: border-box;
-  background-color: #ffffff;
+  box-sizing: border-box; /* Added property */
+  background-color: #fff;
   background-image: url('../images/background_header.svg');
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: flex;  // Added this line
-  flex-direction: column;  // Added this line
-  z-index: 1;  // Added this line
+  background-repeat: no-repeat;
+  padding: 30px 80px 40px;
+  min-height: 720px; /* Added height restriction */
+  max-height: 800px; /* Added height restriction */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
+
 
 .header__title {
   max-width: 729px;
-  margin-top: 183px;
-  margin-bottom: 0;
-  font-weight: 500;  // Added this line
-  letter-spacing: -0.6px;  // Added this line
-  font-size: 60px;  // Moved from header__span-accent
-  line-height: 72px;  // Moved from header__span-accent
+  margin: 183px 0 0;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px; /* Added letter-spacing */
 }
 
 .header__span-accent {
-  display: block;  // Added this line
   font-family: 'Noto Serif', 'Times New Roman', serif;
   font-style: italic;
   color: #2F80ED;
+  display: block;
 }
 
 .header__description {
   max-width: 683px;
-  margin-top: 28px;
-  margin-bottom: 0;
+  margin: 28px 0 0;
   font-family: 'Noto Serif', 'Times New Roman', serif;
   font-size: 20px;
   line-height: 30px;
@@ -45,22 +45,20 @@
   right: 5px;
   width: 646px;
   height: 568px;
-  z-index: -1;  // Added this line
+  z-index: -1;
 }
 
 .header__footer {
   margin-top: auto;
+  width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: end;
   justify-content: space-between;
   box-sizing: border-box;
 }
 
 .header__paragraph {
   margin: 0;
-  font-family: 'Inter', Arial, sans-serif;
+  color: #838383;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #6F6F6F;
 }

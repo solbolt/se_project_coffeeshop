@@ -23,6 +23,4 @@ The Triple Peaks Coffee Shop website is a responsive, single-page site that show
 - About section with information about the coffee shop
 - Footer with social media links
 
-
-
 This project was completed as part of the TripleTen Software Engineering bootcamp, demonstrating proficiency in HTML and CSS while adhering to design specifications.
