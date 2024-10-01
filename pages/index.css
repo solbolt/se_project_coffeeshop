@@ -19,8 +19,4 @@
     --color-dark-blue: #0A2750;
 }
 
-body {
-    font-family: 'Inter', Arial, sans-serif;
-    color: var(--color-black);
-    background-color: var(--color-white);
-}
+/* Removed body styles */

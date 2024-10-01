@@ -6,8 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px 80px 40px;
-  min-height: 720px; /* Added height restriction */
-  max-height: 800px; /* Added height restriction */
+  height: 100vh; /* Added to ensure full viewport height */
   display: flex;
   flex-direction: column;
   position: relative;
