@@ -1,16 +1,19 @@
 .header {
-  box-sizing: border-box; /* Added property */
+  box-sizing: border-box;
   background-color: #fff;
   background-image: url('../images/background_header.svg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px 80px 40px;
-  height: 100vh; /* Added to ensure full viewport height */
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
   z-index: 1;
+}
 }
 
 
